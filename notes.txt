@@ -1,0 +1,13 @@
+https://dzone.com/articles/whats-wrong-java-8-currying-vs
+
+A method can't be manipulated in any other way than calling it, and this implies that its
+arguments will be evaluated before the method is executed. This is a consequence of arguments
+being passed by value in Java.
+
+Functions are different. One may manipulate functions without evaluating them. And one has
+complete control over when the arguments are evaluated. And if a function has several arguments,
+they may be evaluated at different time. This may be done through the use of currying.
+
+
+
+
